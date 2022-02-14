@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TunningCars</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a class="inicio" href="index.html">Tunning Cars</a>
+            <a class="polestar" href="#polestardiv">Polestar 1<br>Toyota 86</a>
+            <a class="bmw" href="#bmwdiv">BMW M3<br>Veloster</a>
+            <a class="mit" href="#mitdiv">EVO X<br>Mazda RX7</a>
+            <a class="nissan" href="#nisdiv">Skyline-GTR34<br>Eclipse</a>
+            <a class="supra" href="#supradiv">Supra-MK4<br>VW Scirocco</a>
+        </nav>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img bannerp d-block w-100" height="600" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Polestar 1</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="img img2 d-block w-100" height="600" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>BMW M3</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="img bannerm d-block w-100" height="600" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mitsubishi EVO X</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="img bannern d-block w-100" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nissan GTR</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="img banners d-block w-100" height="600">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Toyota Supra</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    <section id="section">
+      <div id="saludo" class="saludo">
+        <div id="titulo">
+          <h1>Bienvenido a Tunning Cars</h1>
+          <h2>¡¡Elije el tunning que mas te guste para tu carro!!</h2>
+        </div>
+      </div>
+      <!--POLESTAR UNO-->
+        <div id="polestardiv" class="polestars div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Polestar 1</h1>
+          <div id="parrafo" class="p">
+            <button id="polestar01" class="carrito">Info.
+            </button>
+            <button id="preciopolestar" class="carrito">Precio
+            </button>
+            <button id="limpiar" class="carrito">Limpiar
+            </button>
+            <button id="polestar" class="carrito product">BUY <strong>$20.000</strong></button>
+          </div>
+          <img class="img imgauto img1" height="250" width="250">
+        </div>
+        <!--TOYOTA 86-->
+        <div class="ochos div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Toyota 86</h1>
+          <div id="parrafoocho" class="p">
+            <button id="ocho01" class="carrito">Info.
+            </button>
+            <button id="precioocho" class="carrito">Precio
+            </button>
+            <button id="limpiarocho" class="carrito">Limpiar
+            </button>
+            <button id="ocho" class="carrito product">BUY <strong>$20.000</strong></button>
+          </div>
+          <img class="img imgauto img6" height="250" width="250">
+        </div>
+        <!--BMW M3-->
+        <div id="bmwdiv" class="bmws div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">BMW M3 E46</h1>
+          <div id="parrafobmw" class="p">
+            <button id="bmw01" class="carrito">Info.
+            </button>
+            <button id="preciobmw" class="carrito">Precio
+            </button>
+            <button id="limpiarbmw" class="carrito">Limpiar
+            </button>
+            <button id="bmw" class="carrito product">BUY <strong>$15.000</strong></button>
+          </div>
+          <img class="img imgauto img2" height="250" width="250">
+        </div>
+        <!--VELOSTER HYUNDAI-->
+        <div class="velosters div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Veloster N</h1>
+          <div id="parrafoveloster" class="p">
+            <button id="veloster01" class="carrito">Info.
+            </button>
+            <button id="precioveloster" class="carrito">Precio
+            </button>
+            <button id="limpiarveloster" class="carrito">Limpiar
+            </button>
+            <button id="veloster" class="carrito product">BUY <strong>$25.000</strong></button>
+          </div>
+          <img class="img imgauto img7" height="250" width="250">
+        </div>
+        <!--MITSUBISHI LANCER EVO X-->
+        <div id="mitdiv" class="mits div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Mitsubishi EVO X</h1>
+          <div id="parrafomit" class="p">
+            <button id="mit01" class="carrito">Info.
+            </button>
+            <button id="preciomit" class="carrito">Precio
+            </button>
+            <button id="limpiarmit" class="carrito">Limpiar
+            </button>
+            <button id="evo" class="carrito product">BUY <strong>$15.000</strong></button>
+          </div>
+          <img class="img imgauto img3" height="250" width="250">
+        </div>
+        <!--MAZDA RX7-->
+        <div class="mazdas div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Mazda RX7</h1>
+          <div id="parrafomazda" class="p">
+            <button id="mazda01" class="carrito">Info.
+            </button>
+            <button id="preciomazda" class="carrito">Precio
+            </button>
+            <button id="limpiarmazda" class="carrito">Limpiar
+            </button>
+            <button id="mazda" class="carrito product">BUY <strong>$16.000</strong></button>
+          </div>
+          <img class="img imgauto img8" height="250" width="250">
+        </div>
+        <!--NISSAN SKYLINE GTR34-->
+        <div id="nisdiv" class="nissans div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Nissan GTR34</h1>
+          <div id="parrafonis" class="p">
+            <button id="nis01" class="carrito">Info.
+            </button>
+            <button id="precionis" class="carrito"> Precio
+            </button>
+            <button id="limpiarnis" class="carrito">Limpiar
+            </button>
+            <button id="nissan" class="carrito product">BUY <strong>$30.000</strong></button>
+          </div>
+          <img class="img imgauto img4" height="250" width="250">
+        </div>
+        <!--MITSUBISHI ECLIPSE-->
+        <div class="eclipses div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Eclipse GT</h1>
+          <div id="parrafoeclipse" class="p">
+            <button id="eclipse01" class="carrito">Info.
+            </button>
+            <button id="precioeclipse" class="carrito">Precio
+            </button>
+            <button id="limpiareclipse" class="carrito">Limpiar
+            </button>
+            <button id="eclipse" class="carrito product">BUY <strong>$15.000</strong></button>
+          </div>
+          <img class="img imgauto img9" height="250" width="250">
+        </div>
+        <!--TOYOTA SUPRA-->
+        <div id="supradiv" class="supras div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">Toyota Supra</h1>
+          <div id="parrafotoy" class="p">
+            <button id="toy01" class="carrito">Info.
+            </button>
+            <button id="preciotoy" class="carrito">Precio
+            </button>
+            <button id="limpiartoy" class="carrito">Limpiar
+            </button>
+            <button id="supra" class="carrito product">BUY <strong>$30.000</strong></button>
+          </div>
+          <img class="img imgauto img5" height="250" width="250">
+        </div>
+        <!--VW SIROCCO-->
+        <div class="siroccos div-autos" data-aos="zoom-in" data-aos-duration="1500">
+          <h1 class="h">VW Scirocco</h1>
+          <div id="parrafosirocco" class="p">
+            <button id="sirocco01" class="carrito">Info.
+            </button>
+            <button id="preciosirocco" class="carrito">Precio
+            </button>
+            <button id="limpiarsirocco" class="carrito">Limpiar
+            </button>
+            <button id="scirocco" class="carrito product">BUY <strong>$20.000</strong></button>
+          </div>
+          <img class="img imgauto img10" height="250" width="250">
+        </div>
+        <div id="carritosec">
+          <h1 class="carritoh">CARRITO</h1>
+          <h2 class="carritoh">Estos son los tunnings que elejiste para adaptar a tu carro</h2>
+          
+  
+        </div>
+    </section>  
+      
+      <div id="carrito">
+
+      </div>
+      
+      <div id="precio">
+
+      </div>
+    
+    
+    <footer>
+        <h1 class="contacto">Contacto</h1>
+        <p class="contac-p">WhastApp: 1125794379 <br>
+        Mail: fer_zalazar4@hotmail.com</p>
+        <h1 class="tunning">Tunnign Cars</h1>
+        <p class="tunning-p">Tunning Cars ofrece<br> la mejor calidad de atención 
+        y trabajo<br>en cada proyecto.</p>
+        <a href="https://goo.gl/maps/vR7RwZqVFCbrS54b9" class="maps img"></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>

@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(226,226,226);
+  background: linear-gradient(180deg, rgba(226,226,226,1) 25%, rgba(190,190,190,1) 50%);
+}
+.nav{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 5rem;
+  z-index: 2;
+  display: grid;
+  grid-template-areas: 
+  "inicio polestar bmw mitsubishi nissan supra";
+  grid-template-rows: 100%;
+  grid-template-columns: 40% 12% 12% 12% 12% 12%;
+  justify-items: center;
+  align-items: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7539390756302521) 100%);
+  box-shadow: 0px 0px 10px black;
+}
+.inicio{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  text-align: left;
+  grid-area: inicio;
+}
+.polestar{
+  grid-area: polestar;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.bmw{
+  grid-area: bmw;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.mit{
+  grid-area: mitsubishi;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.nissan{
+  grid-area: nissan;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.supra{
+  grid-area: supra;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+h5{
+  font-size: 3rem;
+  padding-bottom: 4rem;
+}
+.img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerp{
+  background-image: url(/img/polestar1grande2.jpg);
+}
+.bannern{
+  background-image: url(/img/NissanSKYline1.jpg);
+}
+.banners{
+  background-image: url(/img/supraGrande.jpg);
+}
+.bannerm{
+  background-image: url(/img/MitsubishiEVOX1.jpg);
+}
+.img1{
+  background-image: url(/img/Polestar.jpeg);
+}
+.img2{
+  background-image: url(/img/BMW.jpeg);
+}
+.img3{
+  background-image: url(/img/Mitsubishi.jpeg);
+}
+.img4{
+  background-image: url(/img/nissan.jpeg);
+}
+.img5{
+  background-image: url(/img/supra.jpeg);
+}
+.img6{
+  background-image: url(/img/Toyota86.jpg);
+}
+.img7{
+  background-image: url(/img/veloster.jpg);
+}
+.img8{
+  background-image: url(/img/rx7.jpg);
+}
+.img9{
+  background-image: url(/img/eclipse.jpg);
+}
+.img10{
+  background-image: url(/img/sirocco.jpeg);
+}
+#section{
+  display: grid;
+  grid-template-areas: 
+  "saludo saludo"
+  "polestars ochos"
+  "bmws velosters"
+  "mits mazdas"
+  "nissans eclipses"
+  "supras siroccos"
+  "carrito carrito";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 0% 18% 18% 18% 18% 18% auto;
+
+}
+#carritosec{
+  grid-area: carrito ;
+  border-top: 1px solid rgb(109, 109, 109);
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.carritoh{
+  text-align: center;
+}
+.saludo{
+  grid-area: saludo ;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 2;
+  margin-top: 1rem;
+}
+#titulo{
+  margin-left: 16rem;
+  margin-right: 16rem;
+  border-radius: 10px;
+  border: 1px solid rgb(7, 230, 238);
+  box-shadow: 0px 0px 5px rgb(7, 230, 238);
+  background-color: rgb(7, 230, 238);
+}
+
+.polestars{
+  grid-area: polestars ;
+}
+.ochos{
+  grid-area: ochos ;
+}
+.bmws{
+  grid-area: bmws ;
+}
+.velosters{
+  grid-area: velosters ;
+}
+.mits{
+  grid-area: mits ;
+}
+.mazdas{
+  grid-area: mazdas ;
+}
+.nissans{
+  grid-area: nissans ;
+}
+.eclipses{
+  grid-area: eclipses ;
+}
+.supras{
+  grid-area: supras ;
+}
+.siroccos{
+  grid-area: siroccos ;
+}
+.div-autos{
+  display: grid;
+  grid-template-areas: 
+  "imgauto h"
+  "imgauto p";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 75%;
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+}
+.imgauto{
+  grid-area: imgauto;
+  margin-bottom: 0.5rem;
+}
+.h{
+  grid-area: h;
+  text-align: center;
+}
+.p{
+  grid-area: p;
+}
+.h1js{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.eliminar{
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid rgb(116, 116, 116);
+  box-shadow: 0px 0px 5px black;
+  background-color: rgb(255, 255, 35);
+  transition: all 300ms;
+}
+.eliminar:hover {
+  transform: scale(1.1);
+}
+.imgjs{
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 65px;
+}
+.lijs{
+  padding-bottom: 0.5rem;
+  border-bottom: 0.3px solid rgb(134, 134, 134);
+  margin-bottom: 1rem;
+  margin-right: 4rem;
+}
+
+.carrito{
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid rgb(116, 116, 116);
+  box-shadow: 0px 0px 5px black;
+  background-color: rgb(255, 255, 35);
+  transition: all 300ms;
+  font-size: 0.8rem;
+}
+.carrito:hover {
+  transform: scale(1.1);
+}
+
+footer{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4374124649859944) 100%);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.616);
+  display: grid;
+  grid-template-areas: 
+  "contacto tunning maps"
+  "contac-p tunning-p maps";
+  grid-template-columns: 30% 30% auto;
+  grid-template-rows: repeat(2, auto);
+  color: rgba(230, 230, 230, 0.719);
+  text-align: center;
+  height: 13rem;
+  justify-items: center;
+  align-items: center;
+}
+.contacto{
+  grid-area: contacto;
+  margin-top: 2rem;
+}
+.tunning{
+  grid-area: tunning;
+  margin-top: 2rem;
+}
+.maps{
+  grid-area: maps;
+  background-image: url(/img/Maps.jpeg);
+  height: 80%;
+  width: 50%;
+}
+.contac-p{
+  grid-area: contac-p;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.tunning-p{
+  grid-area: tunning-p;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}

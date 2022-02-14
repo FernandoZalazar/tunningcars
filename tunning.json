@@ -1,0 +1,34 @@
+[
+    {
+    "pole": "Polestar", "polepre": 200000,
+    "polep": "El Polestar 1 es el primer modelo de Polestar, la nueva marca deportiva de Volvo. Se trata de un coupé deportivo 600 CV de potencia.",
+
+    "bmw": "BMW", "bmwpre": 15000,
+    "bmwp": "El BMW E46 M3 es la tercera generación del BMW M3, versión deportiva del BMW Serie 3, producido por el fabricante alemán BMW de 2000 a 2006.",
+
+    "mit": "MITSUBISHI", "mitpre": 15000,
+    "mitp": "El Mitsubishi Lancer EVO es un sedán deportivo de cuatro puertas, producido por el fabricante japonés Mitsubishi Motors desde 1992 hasta 2016.",
+
+    "nis": "NISSAN", "nispre": 30000,
+    "nisp": "El Nissan Skyline es un modelo japonés que se ha producido en distintas versiones desde 1957. Sería tras la fusión de los fabricantes Prince y Nissan.",
+
+    "toy": "Toyota", "toypre": 30000,
+    "toyp": "El Toyota Supra MK4 es un automóvil deportivo coupé Hatchback de 3 puertas con motor delantero montado longitudinalmente de tracción trasera.",
+
+    
+    "ocho": "Toyota 86", "ochopre": 20000,
+    "ochop": "El Toyota GT-86 es un automóvil deportivo desarrollado por Toyota desde el año 2012. Tiene un motor delantero boxer y tracción trasera.",
+
+    "veloster": "Hyundai Veloster", "velosterpre": 25000,
+    "velosterp": "Es un coupé con puerta trasera producido por primera vez en 2011 por Hyundai , sus ventas comenzaron en Corea del Sur, Canadá y USA el 03-11.",
+
+    "mazda": "Mazda RX7", "mazdapre": 16000,
+    "mazdap": "El Mazda RX-7 es un automóvil deportivo producido por el fabricante japonés Mazda Motor Corporation entre los años 1978 y 2002.",
+
+    "eclipse": "Mitsubishi Eclipse", "eclipsepre": 15000,
+    "eclipsep": "El Mitsubishi Eclipse fue un coupé deportivo fabricado por Mitsubishi Motors y Chrysler Corporation, ahora llamada Stellantis.",
+
+    "sirocco": "VW Scirocco", "siroccopre": 20000,
+    "siroccop": "El Volkswagen Scirocco es un automóvil deportivo compacto producido por el fabricante alemán Volkswagen entre los años 1974 y 1992 en su primera versión."
+    }
+]
