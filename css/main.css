@@ -75,46 +75,46 @@ h5{
   background-repeat: no-repeat;
 }
 .bannerp{
-  background-image: url(/img/polestar1grande2.jpg);
+  background-image: url(./img/polestar1grande2.jpg);
 }
 .bannern{
-  background-image: url(/img/NissanSKYline1.jpg);
+  background-image: url(./img/NissanSKYline1.jpg);
 }
 .banners{
-  background-image: url(/img/supraGrande.jpg);
+  background-image: url(./img/supraGrande.jpg);
 }
 .bannerm{
-  background-image: url(/img/MitsubishiEVOX1.jpg);
+  background-image: url(./img/MitsubishiEVOX1.jpg);
 }
 .img1{
-  background-image: url(/img/Polestar.jpeg);
+  background-image: url(./img/Polestar.jpeg);
 }
 .img2{
-  background-image: url(/img/BMW.jpeg);
+  background-image: url(./img/BMW.jpeg);
 }
 .img3{
-  background-image: url(/img/Mitsubishi.jpeg);
+  background-image: url(./img/Mitsubishi.jpeg);
 }
 .img4{
-  background-image: url(/img/nissan.jpeg);
+  background-image: url(./img/nissan.jpeg);
 }
 .img5{
-  background-image: url(/img/supra.jpeg);
+  background-image: url(./img/supra.jpeg);
 }
 .img6{
-  background-image: url(/img/Toyota86.jpg);
+  background-image: url(./img/Toyota86.jpg);
 }
 .img7{
-  background-image: url(/img/veloster.jpg);
+  background-image: url(./img/veloster.jpg);
 }
 .img8{
-  background-image: url(/img/rx7.jpg);
+  background-image: url(./img/rx7.jpg);
 }
 .img9{
-  background-image: url(/img/eclipse.jpg);
+  background-image: url(./img/eclipse.jpg);
 }
 .img10{
-  background-image: url(/img/sirocco.jpeg);
+  background-image: url(./img/sirocco.jpeg);
 }
 #section{
   display: grid;
